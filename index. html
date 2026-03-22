@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Apex Synthesis Laboratory</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            border-bottom: 2px solid #00ff9d;
+            padding: 20px;
+            text-align: center;
+            background: #111;
+        }
+        .header h1 {
+            margin: 0;
+            color: #00ff9d;
+            letter-spacing: 2px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background: #0f0f0f;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .tabs a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: 0.2s;
+        }
+        .tabs a:hover {
+            background: #00ff9d20;
+            color: #00ff9d;
+        }
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 12px;
+            border-top: 1px solid #2a2a2a;
+            margin-top: 40px;
+        }
+        a {
+            color: #00ff9d;
+        }
+        blockquote {
+            border-left: 3px solid #00ff9d;
+            margin: 20px 0;
+            padding-left: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>⚛️ APEX SYNTHESIS LABORATORY</h1>
+    <p>Лаборатория, где пересобирают правила</p>
+</div>
+
+<div class="tabs">
+    <a href="index.html">Главная</a>
+    <a href="lore.html">Лор</a>
+    <a href="cards.html">Карты</a>
+    <a href="protocol.html">Протокол</a>
+</div>
+
+<div class="content">
+    <h2>Добро пожаловать в ASL</h2>
+    <p><strong>«Если это можно вообразить, это можно создать»</strong></p>
+    <p>Apex Synthesis Laboratory — это пространство, где проверяются границы возможного. Здесь нет случайных предметов, есть только то, что вы ещё не поняли.</p>
+
+    <h3>Готовые проекты</h3>
+    <ul>
+        <li><strong>Побег из лаборатории TToS</strong> — одиночный квест. <a href="#">Скачать</a></li>
+        <li><strong>Роботы-напарники</strong> — кооператив на двоих. <a href="#">Скачать</a></li>
+        <li><strong>Панельки</strong> — социальный симулятор. В разработке.</li>
+    </ul>
+
+    <h3>Принцип Чайника</h3>
+    <p>Решение достигается, когда объект использован не по инструкции.</p>
+    <blockquote>
+        1. Возьми объект.<br>
+        2. Найди три способа его использования: два стандартных, третий — неочевидный.<br>
+        3. Сделай третий способ обязательным.
+    </blockquote>
+
+    <p>Выберите вкладку выше, чтобы погрузиться в лор, карты или протокол Синтеза.</p>
+</div>
+
+<div class="footer">
+    © 2026 Meshokdeneg / Apex Synthesis Laboratory | Лицензия CC BY-NC-ND 4.0
+</div>
+
+</body>
+</html>
